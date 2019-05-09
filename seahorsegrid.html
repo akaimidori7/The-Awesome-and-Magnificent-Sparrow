@@ -5,24 +5,37 @@
     <title>Seahorse Grid</title>
   </head>
   <style media="screen">
+  body {
+    background: orange;
+  }
 
-  @media only screen and (min-width: 768px)
+  @media only screen and (min-width: 768px) {
+
+    #title{
+      background: lightblue;
+      color: white;
+      text-align: center;
+    }
 
   .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
+      background: lightblue;
   }
 
   .span-col-2{grid-column: span 2 / auto;
+    background: lightblue;
   }
 
 
   .span-col-3{grid-column: span 3 / auto;
+    background: lightblue;
   }
-
+}
   </style>
   <body>
+
 
   <div class="grid">
     <div id="title"class="span-col-2">
