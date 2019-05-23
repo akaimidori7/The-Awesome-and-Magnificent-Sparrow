@@ -1,0 +1,28 @@
+body{
+  background: #fde877;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #title{
+    background: yellow;
+    color: black;
+    text-align: center;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background: orange;
+}
+
+.span-col-2{grid-column: span 2 / auto;
+  background: yellow;
+}
+
+
+.span-col-3{grid-column: span 3 / auto;
+  background: yellow;
+}
+}
